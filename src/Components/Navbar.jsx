@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center w-full h-16  px-4 z-10 bg-black text-white fixed'>
       <div>
-        <h1 className="text-5xl font-signature ml-2 mt-3 hover:text-orange-400 duration-500 font-bold"><a href="#">Pranav</a></h1>
+        <h1 className="text-4xl ml-2 mt-3 hover:text-orange-400 duration-500 font-bold"><a href="#">Pranav</a></h1>
       </div>
 
 
