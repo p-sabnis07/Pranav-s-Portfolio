@@ -13,31 +13,37 @@ const Projects = () => {
       id: 1,
       image: portfolio,
       demoLink: "#",
+      codeLink: "https://github.com/p-sabnis07/Pranav-s-Portfolio",
     },
     {
       id: 2,
       image: hackernews,
       demoLink: "#",
+      codeLink: "https://github.com/p-sabnis07/Hacker-News-Jobs-Board",
     },
     {
       id: 3,
       image: fitnessclub,
       demoLink: "https://tuljabhavanifitnessclub.netlify.app/",
+      codeLink: "https://github.com/p-sabnis07/Health-Club-Website",
     },
     {
       id: 4,
       image: redwine,
       demoLink: "https://tailwindthemechanger.netlify.app/",
+      codeLink: "https://github.com/p-sabnis07/Theme-Changer",
     },
     {
       id: 5,
       image: mui,
       demoLink: "https://reactmuidesign.netlify.app",
+      codeLink: "https://github.com/p-sabnis07/React-MUI-Project"
     },
     {
       id: 6,
       image: bshadow,
       demoLink: "https://bshadowgenerator.netlify.app/",
+      codeLink: "https://github.com/p-sabnis07/Box-Shadow-Generator"
     },
     // {
     //   id: 7,
@@ -80,11 +86,11 @@ const Projects = () => {
                       Demo
                     </a>
                   </button>
-                  {/* <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-orange-500">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:text-orange-500">
                     <a href={codeLink} target="_blank">
                       Code
                     </a>
-                  </button> */}
+                  </button> 
                 </div>
               </div>
             );
